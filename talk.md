@@ -117,10 +117,30 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
 ---
 # Roadmap
 
-Loosely [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/status/1159158552298229763)
+Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/status/1159158552298229763)
 
 .center.width-80[![Seibert Heirarchy of Needs SciPy 2019](https://pbs.twimg.com/media/EBYojw8XUAERJhZ?format=png)]
 .center[Stan Seibert (Anaconda) at SciPy 2019]
+
+---
+# Roadmap
+
+.center.width-105[![pyhf docs gantt](figures/pyhf_docs_gantt.svg)]
+
+---
+# Roadmap
+
+.center.width-105[![pyhf maintenance gantt](figures/pyhf_maintenance_gantt.svg)]
+
+---
+# Roadmap
+
+.center.width-105[![pyhf dev gantt](figures/pyhf_dev_gantt.svg)]
+
+---
+# Roadmap
+
+.center.width-105[![pyhf research gantt](figures/pyhf_research_gantt.svg)]
 
 ---
 # Roadmap
@@ -136,6 +156,27 @@ Loosely [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/status/11
 - Initial roadmap for high-level cyberinfrastructure (2019-Q4 -> 2020-Q3)
 - Benchmarking and assessment of existing AS (2020-Q1 -> 2020-Q3)
 - Accelerator implementations of statistical components  (2020-Q1 -> 2020-Q3)
+
+---
+# Upcoming Release v0.1.3
+
+## Toy Sampling
+
+.kol-1-2.center.width-95[
+[![lukas_tweet](figures/lukas_tweet.png)](https://twitter.com/lukasheinrich_/status/1171075909102833665)
+]
+.kol-1-2.width-100[
+.center[![comparison GIF](figures/comparison_tweet.gif)]
+
+In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727](https://inspirehep.net/record/860907)! 👍
+]
+
+---
+# Seriously...just a few lines
+
+.center.width-90[
+[![lukas_tweet](https://pbs.twimg.com/media/EEB_VjrWsAAE6IJ?format=png)](https://twitter.com/lukasheinrich_/status/1171075918556782592?s=20)
+]
 
 ---
 # Summary
