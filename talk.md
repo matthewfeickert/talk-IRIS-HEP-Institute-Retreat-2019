@@ -115,6 +115,29 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
    - Used for reinterpretation in phenomenology paper [2]
 
 ---
+# Roadmap
+
+Loosely [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/status/1159158552298229763)
+
+.center.width-80[![Seibert Heirarchy of Needs SciPy 2019](https://pbs.twimg.com/media/EBYojw8XUAERJhZ?format=png)]
+.center[Stan Seibert (Anaconda) at SciPy 2019]
+
+---
+# Roadmap
+
+.center.width-90[![Roadmap](figures/pyhf_AS_gantt.svg)]
+
+---
+# Analysis Systems Milestones
+
+.center.width-105[![AS Milestones](figures/AS_gantt.svg)]
+
+- Initial roadmap for ecosystem coherency (2019-Q4 -> 2020-Q3)
+- Initial roadmap for high-level cyberinfrastructure (2019-Q4 -> 2020-Q3)
+- Benchmarking and assessment of existing AS (2020-Q1 -> 2020-Q3)
+- Accelerator implementations of statistical components  (2020-Q1 -> 2020-Q3)
+
+---
 # Summary
 
 - Summary of talk
