@@ -4,6 +4,8 @@ Talk given at the [2019 IRIS-HEP Institute Retreat](https://indico.cern.ch/event
 
 Viewable online [here](https://matthewfeickert.github.io/talk-IRIS-HEP-Institute-Retreat-2019/index.html?p=talk.md)
 
+Toy sampling demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/add-first-draft?filepath=notebooks%2Ftoys-example.ipynb)
+
 ## Acknowledgments
 
 - [pyhf](https://github.com/diana-hep/pyhf) is developed by [Lukas Heinrich](https://github.com/lukasheinrich), [Matthew Feickert](http://www.matthewfeickert.com/), and [Giordon Stark](https://github.com/kratsg) with advice from [Kyle Cranmer](http://theoryandpractice.org/)
