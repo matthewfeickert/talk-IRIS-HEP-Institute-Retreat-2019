@@ -1,0 +1,2 @@
+git+https://github.com/diana-hep/pyhf.git@add_probability_module_withjoint_withextended_pdf_api_withtoys#egg=pyhf-PR-558
+matplotlib
