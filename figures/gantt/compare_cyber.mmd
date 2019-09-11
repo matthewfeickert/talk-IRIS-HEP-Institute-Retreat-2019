@@ -1,0 +1,25 @@
+gantt
+    dateFormat YYYY-Q
+    axisFormat  %Y-%m
+
+    section Maintenance
+    Factorize out the statistical fitting portion           :active, 2019-3, 2020-1
+    Scrutinize edge cases/squash bugs                       :active, 2019-3, 2020-2
+
+    section Development
+    Add batch support                           :done,   2019-3, 2019-4
+    Add ParamViewer support                     :done,   2019-3, 2019-4
+    Implement pdf as subclass of distributions  :active, 2019-3, 2019-4
+    Finalize toy sampling                       :active, 2019-3, 2019-4
+    Migrate to TensorFlow 2.0                   :        2019-4, 2020-1
+    Finalize public API                         :        2020-1, 2020-2
+    Integrate Statisfactory API                 :        2020-1, 2020-2
+    Drop Python 2.7 support                     :active, py2EOL, 2019-4, 2020-1
+
+    section Research
+    Hardware acceleration scaling studies   :        2019-4,        2020-2
+    Add Dask backend:                       :        2020-1,        2020-2
+    Prototype use of pyhf as AS end fit tool:        2019-4,        2020-2
+
+    section Analysis Systems
+    Initial roadmap for high-level cyberinfrastructure        :crit,   2019-4, 2020-3

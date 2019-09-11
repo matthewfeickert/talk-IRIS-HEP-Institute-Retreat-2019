@@ -1,29 +1,12 @@
-# talk-template
+# [pyhf](https://github.com/diana-hep/pyhf) Roadmap: 2019 into 2020
 
-A ready-to-fork template for talks, using [remark](https://github.com/gnab/remark), [KaTeX](https://github.com/Khan/KaTeX) and some customised CSS.
+Talk given at the [2019 IRIS-HEP Institute Retreat](https://indico.cern.ch/event/840472/overview)
 
-## Instructions
+Viewable online [here](https://matthewfeickert.github.io/talk-IRIS-HEP-Institute-Retreat-2019/index.html?p=talk.md)
 
-- Clone this repository:
-```
-git clone https://github.com/glouppe/talk-template.git
-cd talk-template
-```
-- Start an HTTP server to serve the slides:
-```
-python -m http.server 8001
-```
-- Edit `talk.md` for making your slides.
-- Use [decktape](https://github.com/astefanutti/decktape) for exporting your slides to PDF.
+Toy sampling demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/master?filepath=notebooks%2Ftoys-example.ipynb)
 
-## Markup language
+## Acknowledgments
 
-Slides are written in Markdown. See the remark [documentation](https://github.com/gnab/remark/wiki/Markdown) for further details regarding the supported features.
-
-This template also comes with grid-like positioning CSS classes (see `assets/grid.css`) and other custom CSS classes (see `assets/style.css`)
-
-## Integration with GitHub pages
-
-Slides can be readily integrated with [GitHub pages](https://pages.github.com/) by hosting the files in a GitHub repositery and enabling Pages in the Settings tab.
-
-See e.g. [https://glouppe.github.io/talk-template](https://glouppe.github.io/talk-template) for this deck. 
+- [pyhf](https://github.com/diana-hep/pyhf) is developed by [Lukas Heinrich](https://github.com/lukasheinrich), [Matthew Feickert](http://www.matthewfeickert.com/), and [Giordon Stark](https://github.com/kratsg) with advice from [Kyle Cranmer](http://theoryandpractice.org/)
+- [Matthew Feickert](http://www.matthewfeickert.com/) is supported in part by IRIS-HEP
