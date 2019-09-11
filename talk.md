@@ -117,10 +117,12 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
 ---
 # Likelihood serialization and ATLAS sbottom reproduction PUB note
 
-Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/) ([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))
-
-.kol-1-2.center.width-95[
+Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)
+.kol-1-2.center.width-100[
+[![likelihood_publishing_agreement](figures/likelihood_publishing_agreement.png)](https://cds.cern.ch/record/411537)
+([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))
 [![PUB_note_cover](figures/PUB_note_cover.png)](https://cds.cern.ch/record/2684863)
+(ATLAS, 2019)
 ]
 .kol-1-2.center.width-100[
 [![sbottom_speedup](figures/DPF2019_pyhf.png)](https://indico.cern.ch/event/782953/contributions/3462560/)
