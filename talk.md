@@ -74,8 +74,8 @@ $$\begin{aligned}
 - .red[Constraint p.d.f. (+ data) for "auxiliary measurements"]
    - encoding systematic uncertainties (normalization, shape, etc)
 
----
-# HistFactory Template
+<!-- --- -->
+<!-- # HistFactory Template
 
 $$\begin{aligned}
 &\mathcal{P}\left(n\_{c}, x\_{e}, a\_{p} \middle|\phi\_{p}, \alpha\_{p}, \gamma\_{b} \right) = \\\\
@@ -93,10 +93,11 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
 - Difficult to interface with modern tools for minimization and computation of the p.d.f.
 - Likelihood stored in the binary ROOT format
    - Challenge for long-term preservation (i.e. HEPData)
-   - Why is a histogram needed for an array of numbers?
+   - Why is a histogram needed for an array of numbers? -->
 
 ---
 # `pyhf`: HistFactory in pure Python
+<br>
 
 - First non-ROOT implementation of the HistFactory p.d.f. template
    - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1169739.svg)](https://doi.org/10.5281/zenodo.1169739)
@@ -109,22 +110,21 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
    - Not a replacement for HistFitter or RooStats
 - Open source tool for all of HEP
    - Originated from a [DIANA/HEP](https://diana-hep.org/) project fellowship
-      - Special thanks to [Gilles Louppe](https://glouppe.github.io/), [Vince Croft](https://www.nikhef.nl/~vcroft/), and [Kyle Cranmer](http://theoryandpractice.org/)
    - Not experiment specific (though designed by ATLAS physicists)
-   - Have contributions from [CMS members](https://github.com/diana-hep/pyhf/commit/4159c2dbc9ed7a9b3866e9b127d885d696314754) and [strong interest by theorists](https://indico.cern.ch/event/689514/contributions/2961925/)
-   - Used for reinterpretation in phenomenology paper [2]
+   - Used for reinterpretation in phenomenology paper [2] and gaining interest in ATLAS
 
 ---
 # Likelihood serialization and ATLAS sbottom reproduction PUB note
 
-Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)
+.center[Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
 .kol-1-2.center.width-100[
 [![likelihood_publishing_agreement](figures/likelihood_publishing_agreement.png)](https://cds.cern.ch/record/411537)
 ([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))
 [![PUB_note_cover](figures/PUB_note_cover.png)](https://cds.cern.ch/record/2684863)
-(ATLAS, 2019)
+([ATLAS, 2019](https://cds.cern.ch/record/2684863))
 ]
 .kol-1-2.center.width-100[
+<br><br>
 [![sbottom_speedup](figures/DPF2019_pyhf.png)](https://indico.cern.ch/event/782953/contributions/3462560/)
 
 Given at [DPF 2019 by Giordon Stark](https://indico.cern.ch/event/782953/contributions/3462560/)
@@ -250,10 +250,8 @@ Backup
 ---
 # References
 
-1. L. Heinrich, .italic[[Continuous Analysis in ATLAS: Running User-Defined Container Images on the Grid](https://indico.cern.ch/event/708041/contributions/3276174/)], ACAT 2019, March 12, 2019
-2. L. Heinrich, .italic[[Docker On the Grid](https://indico.cern.ch/event/791372/contributions/3286861/)], ATLAS Machine Learning Forum, January 23, 2019
-3. A. C. Forti, L. Heinrich, M. Guth, .italic[[Hardware Accelerated ATLAS Workloads on the WLCG](https://cds.cern.ch/record/2665661?ln=en)], ACAT 2019, March 11, 2019
-4. M. Feickert, .italic[[Base Images for Machine Learning](https://indico.cern.ch/event/791372/contributions/3286864/)], ATLAS Machine Learning Forum, January 23, 2019
+1. ROOT collaboration, K. Cranmer, G. Lewis, L. Moneta, A. Shibata and W. Verkerke, .italic[[HistFactory: A tool for creating statistical models for use with RooFit and RooStats](http://inspirehep.net/record/1236448)], 2012.
+2. L. Heinrich, H. Schulz, J. Turner and Y. Zhou, .italic[[Constraining $A_{4}$ Leptonic Flavour Model Parameters at Colliders and Beyond](https://inspirehep.net/record/1698425)], 2018.
 
 ---
 
