@@ -1,10 +1,14 @@
 default: AS
 
-all: AS pyhf
+all: AS pyhf key
 
 AS: figures/gantt/AS_gantt.mmd
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1100 -i AS_gantt.mmd -o AS_gantt.svg
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1100 -i AS_gantt.mmd -o AS_gantt.pdf
+
+key: figures/gantt/gantt_key.mmd
+	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -i gantt_key.mmd -o gantt_key.svg
+	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -i gantt_key.mmd -o gantt_key.pdf
 
 pyhf: pyhf_docs pyhf_maintenance pyhf_dev pyhf_research
 

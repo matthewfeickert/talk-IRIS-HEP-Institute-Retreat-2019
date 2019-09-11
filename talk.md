@@ -128,7 +128,6 @@ Makes good on [19 year old agreement to publish likelihoods](https://indico.cern
 Given at [DPF 2019 by Giordon Stark](https://indico.cern.ch/event/782953/contributions/3462560/)
 ]
 
-
 ---
 # Roadmap (Issue [#561](https://github.com/diana-hep/pyhf/issues/561))
 
@@ -141,6 +140,11 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 # Roadmap
 
 .center.width-105[![pyhf docs gantt](figures/gantt/pyhf_docs_gantt.svg)]
+
+- Most common question/request core devs get over email is for examples
+
+.center[Gantt Color Key]
+.center.width-100[![gantt key](figures/gantt/gantt_key.svg)]
 
 ---
 # Roadmap
