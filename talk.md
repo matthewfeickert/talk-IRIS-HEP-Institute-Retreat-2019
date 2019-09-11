@@ -115,7 +115,22 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
    - Used for reinterpretation in phenomenology paper [2]
 
 ---
-# Roadmap
+# Likelihood serialization and ATLAS sbottom reproduction PUB note
+
+Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/) ([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))
+
+.kol-1-2.center.width-95[
+[![PUB_note_cover](figures/PUB_note_cover.png)](https://cds.cern.ch/record/2684863)
+]
+.kol-1-2.center.width-100[
+[![sbottom_speedup](figures/DPF2019_pyhf.png)](https://indico.cern.ch/event/782953/contributions/3462560/)
+
+Given at [DPF 2019 by Giordon Stark](https://indico.cern.ch/event/782953/contributions/3462560/)
+]
+
+
+---
+# Roadmap (Issue [#561](https://github.com/diana-hep/pyhf/issues/561))
 
 Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/status/1159158552298229763)
 
@@ -174,8 +189,10 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 ---
 # ...in just a few lines
 
-.center.width-90[
-[![lukas_tweet](https://pbs.twimg.com/media/EEB_VjrWsAAE6IJ?format=png)](https://twitter.com/lukasheinrich_/status/1171075918556782592?s=20)
+.center.width-80[
+<!-- [![lukas_tweet](https://pbs.twimg.com/media/EEB_VjrWsAAE6IJ?format=png)](https://twitter.com/lukasheinrich_/status/1171075918556782592?s=20) -->
+<!-- [![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/master?filepath=notebooks%2Ftoys-example.ipynb) -->
+[![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/add-first-draft?filepath=notebooks%2Ftoys-example.ipynb)
 ]
 
 ---
