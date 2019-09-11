@@ -172,7 +172,7 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 ]
 
 ---
-# Seriously...just a few lines
+# ...in just a few lines
 
 .center.width-90[
 [![lukas_tweet](https://pbs.twimg.com/media/EEB_VjrWsAAE6IJ?format=png)](https://twitter.com/lukasheinrich_/status/1171075918556782592?s=20)
