@@ -70,7 +70,7 @@ $$\begin{aligned}
 
 .bold[Main pieces:]
 
-- .blue[Poisson p.d.f. for bins observed in all channels]
+- .blue[Main Poisson p.d.f. for bins observed in all channels]
 - .red[Constraint p.d.f. (+ data) for "auxiliary measurements"]
    - encoding systematic uncertainties (normalization, shape, etc)
 
