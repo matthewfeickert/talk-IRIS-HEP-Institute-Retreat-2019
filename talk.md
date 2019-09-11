@@ -140,37 +140,57 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 ---
 # Roadmap
 
-.center.width-105[![pyhf docs gantt](figures/pyhf_docs_gantt.svg)]
+.center.width-105[![pyhf docs gantt](figures/gantt/pyhf_docs_gantt.svg)]
 
 ---
 # Roadmap
 
-.center.width-105[![pyhf maintenance gantt](figures/pyhf_maintenance_gantt.svg)]
+.center.width-105[![pyhf maintenance gantt](figures/gantt/pyhf_maintenance_gantt.svg)]
 
 ---
 # Roadmap
 
-.center.width-105[![pyhf dev gantt](figures/pyhf_dev_gantt.svg)]
+.center.width-105[![pyhf dev gantt](figures/gantt/pyhf_dev_gantt.svg)]
 
 ---
 # Roadmap
 
-.center.width-105[![pyhf research gantt](figures/pyhf_research_gantt.svg)]
+.center.width-105[![pyhf research gantt](figures/gantt/pyhf_research_gantt.svg)]
 
 ---
 # Roadmap
 
-.center.width-90[![Roadmap](figures/pyhf_AS_gantt.svg)]
+.center.width-90[![Roadmap](figures/gantt/pyhf_AS_gantt.svg)]
 
 ---
 # Analysis Systems Milestones
 
-.center.width-105[![AS Milestones](figures/AS_gantt.svg)]
+.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
 
 - Initial roadmap for ecosystem coherency (2019-Q4 -> 2020-Q3)
 - Initial roadmap for high-level cyberinfrastructure (2019-Q4 -> 2020-Q3)
 - Benchmarking and assessment of existing AS (2020-Q1 -> 2020-Q3)
 - Accelerator implementations of statistical components  (2020-Q1 -> 2020-Q3)
+
+---
+# Initial roadmap for ecosystem coherency
+
+.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+
+---
+# Initial roadmap for high-level cyberinfrastructure
+
+.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+
+---
+# Benchmarking and assessment of existing AS
+
+.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+
+---
+# Accelerator implementations of statistical components
+
+.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
 
 ---
 # Upcoming Release v0.1.3
