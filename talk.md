@@ -232,7 +232,11 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 ---
 # Summary
 
-- Summary of talk
+- pyhf development roadmap laid out for rest of the year
+- Close to finalizing API
+- Institute retreat is well needed ground for discussions on pyhf in Statisfactory
+   - Discussions here will be critical for API design
+- Discussions on alignment with Analysis Systems milestones important for roadmap changes
 
 ---
 class: end-slide, center
@@ -242,10 +246,13 @@ Backup
 ---
 # Backup Slide
 
-<br>
+.bold[Recent Talks:]
+- [Poster at SciPy 2019](http://conference.scipy.org/proceedings/scipy2019/slides.html) (July, 8-14th, 2019)
 
-- Backup content
-- more of it
+.bold[Upcoming Talks:]
+- [Talk at PyHEP 2019](https://indico.cern.ch/event/833895/) (October 16-18th, 2019)
+- [Talk at CHEP 2019](https://indico.cern.ch/event/773049/contributions/3476143/) (November 4-8th, 2019)
+- [Poster at CHEP 2019](https://indico.cern.ch/event/773049/contributions/3476180/) (November 4-8th, 2019)
 
 ---
 # References
