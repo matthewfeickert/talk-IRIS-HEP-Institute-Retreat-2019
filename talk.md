@@ -246,8 +246,8 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 
 .center.width-80[
 <!-- [![lukas_tweet](https://pbs.twimg.com/media/EEB_VjrWsAAE6IJ?format=png)](https://twitter.com/lukasheinrich_/status/1171075918556782592?s=20) -->
-<!-- [![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/master?filepath=notebooks%2Ftoys-example.ipynb) -->
-[![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/add-first-draft?filepath=notebooks%2Ftoys-example.ipynb)
+[![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/master?filepath=notebooks%2Ftoys-example.ipynb)
+<!-- [![nbviewer_preview](figures/nbviewer_preview.png)](https://mybinder.org/v2/gh/matthewfeickert/talk-IRIS-HEP-Institute-Retreat-2019/add-first-draft?filepath=notebooks%2Ftoys-example.ipynb) -->
 ]
 
 ---
@@ -257,7 +257,7 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 - Institute retreat is well needed ground for discussions on pyhf in Statisfactory
    - Discussions here will be critical for API design
 - Discussions on alignment with Analysis Systems milestones important for roadmap changes
-
+<!--  -->
 .center.width-90[![AS Milestones](figures/gantt/pyhf_AS_summary.svg)]
 
 ---
