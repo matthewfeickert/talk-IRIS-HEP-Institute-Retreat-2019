@@ -141,7 +141,7 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 ---
 # Roadmap
 
-.center.width-105[![pyhf docs gantt](figures/gantt/pyhf_docs_gantt.svg)]
+.center.width-100[![pyhf docs gantt](figures/gantt/pyhf_docs_gantt.svg)]
 
 - Most common question/request core devs get over email is for examples
 
@@ -151,20 +151,39 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 ---
 # Roadmap
 
-.center.width-105[![pyhf maintenance gantt](figures/gantt/pyhf_maintenance_gantt.svg)]
+.center.width-100[![pyhf maintenance gantt](figures/gantt/pyhf_maintenance_gantt.svg)]
+
+- Now that we have published likelihoods important to integrate them into testing
+- Good opportunity to examine real physics case performance of all backends
+- Update testing framework to take advantage of continued improvements
 
 ---
 # Roadmap
 
-.center.width-105[![pyhf dev gantt](figures/gantt/pyhf_dev_gantt.svg)]
+.center.width-95[![pyhf dev gantt](figures/gantt/pyhf_dev_gantt.svg)]
+<!--  -->
+- Clear, reliable public API
+- Toys for when asymptotics fail in low stats regime
+   - Most requested feature
+- Statisfactory integration
 
 ---
 # Roadmap
 
-.center.width-105[![pyhf research gantt](figures/gantt/pyhf_research_gantt.svg)]
+.center.width-100[![pyhf research gantt](figures/gantt/pyhf_research_gantt.svg)]
+
+.kol-1-2[
+- Hardware acceleration studies highly important
+- Access to [Hardware-Accelerated Learning (HAL)](https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster) at NCSA at Illinois
+   - Ideal cluster for Benchmarking scaling and performance
+- Additional scaling with Dask could add additional benefit
+]
+.kol-1-2[
+.center.width-90[![HAL_hardware](figures/HAL_hardware.png)]
+]
 
 ---
-# Roadmap
+# Roadmap + Analysis Systems
 
 .center.width-90[![Roadmap](figures/gantt/pyhf_AS_gantt.svg)]
 
@@ -180,31 +199,33 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 
 ---
 # Initial roadmap for ecosystem coherency
-
-TODO: Identify relevant issues and make gantt charts for them.
-.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
-
-- Statisfactory
+<!--  -->
+.center.width-100[![AS Milestones](figures/gantt/compare_ecosystem.svg)]
+<!--  -->
+- Statisfactory integration and stable API critical
 
 ---
 # Initial roadmap for high-level cyberinfrastructure
 
-TODO: Identify relevant issues and make gantt charts for them.
-.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+.center.width-100[![AS Milestones](figures/gantt/compare_cyber.svg)]
 
-- Fitting as a service
+- Fitting as a service on a cluster
+- Similar idea to [ATLAS ML Platform](https://www.atlas-ml.org) (IRIS-HEP SSL) but for fits
 
 ---
 # Benchmarking and assessment of existing AS
 
-TODO: Identify relevant issues and make gantt charts for them.
-.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+.center.width-100[![AS Milestones](figures/gantt/compare_benchmark.svg)]
+
+- Case study: Use pyhf in concert with other parts of AS to replicate entire ATLAS analysis (DAOD -> plot)
+- Proposal: Matthew's thesis analysis ([ATLAS-CONF-2018-052](http://inspirehep.net/record/1705606/))
 
 ---
 # Accelerator implementations of statistical components
 
-TODO: Identify relevant issues and make gantt charts for them.
-.center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+.center.width-100[![AS Milestones](figures/gantt/compare_accelerate.svg)]
+
+- Given pyhf research goals should be well on track
 
 ---
 # Upcoming Release v0.1.3
@@ -233,10 +254,11 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 # Summary
 
 - pyhf development roadmap laid out for rest of the year
-- Close to finalizing API
 - Institute retreat is well needed ground for discussions on pyhf in Statisfactory
    - Discussions here will be critical for API design
 - Discussions on alignment with Analysis Systems milestones important for roadmap changes
+
+.center.width-90[![AS Milestones](figures/gantt/pyhf_AS_summary.svg)]
 
 ---
 class: end-slide, center
