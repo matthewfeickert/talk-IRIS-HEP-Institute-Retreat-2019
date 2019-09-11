@@ -179,21 +179,29 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 ---
 # Initial roadmap for ecosystem coherency
 
+TODO: Identify relevant issues and make gantt charts for them.
 .center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+
+- Statisfactory
 
 ---
 # Initial roadmap for high-level cyberinfrastructure
 
+TODO: Identify relevant issues and make gantt charts for them.
 .center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
+
+- Fitting as a service
 
 ---
 # Benchmarking and assessment of existing AS
 
+TODO: Identify relevant issues and make gantt charts for them.
 .center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
 
 ---
 # Accelerator implementations of statistical components
 
+TODO: Identify relevant issues and make gantt charts for them.
 .center.width-105[![AS Milestones](figures/gantt/AS_gantt.svg)]
 
 ---
