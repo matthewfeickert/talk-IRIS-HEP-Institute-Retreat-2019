@@ -1,6 +1,6 @@
 default: AS
 
-all: AS pyhf key compare
+all: AS pyhf key compare summary
 
 AS: figures/gantt/AS_gantt.mmd
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1100 -i AS_gantt.mmd -o AS_gantt.svg
