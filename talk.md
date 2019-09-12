@@ -168,7 +168,7 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 - Clear, reliable public API
 - Toys for when asymptotics fail in low stats regime
    - Most requested feature
-- Statisfactory and [zfit](https://github.com/zfit/zfit/issues/120) integrations
+- pyfitcore and [zfit](https://github.com/zfit/zfit/issues/120) integrations
 
 ---
 # Roadmap
@@ -187,7 +187,7 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 
 ---
 # Roadmap + Analysis Systems
-
+<!--  -->
 .center.width-90[![Roadmap](figures/gantt/pyhf_AS_gantt.svg)]
 
 ---
@@ -205,7 +205,7 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 <!--  -->
 .center.width-100[![AS Milestones](figures/gantt/compare_ecosystem.svg)]
 <!--  -->
-- Statisfactory integration and stable API critical
+- pyfitcore integration and stable API critical
 
 ---
 # Initial roadmap for high-level cyberinfrastructure
@@ -256,7 +256,7 @@ In just a few lines of code are able to reproduce Figure 5b of [arXiv:1007.1727]
 # Summary
 
 - pyhf development roadmap laid out for rest of the year
-- Institute retreat is well needed ground for discussions on pyhf in Statisfactory
+- Institute retreat is well needed ground for discussions on pyhf in pyfitcore
    - Discussions here will be critical for API design
 - Discussions on alignment with Analysis Systems milestones important for roadmap changes
 <!--  -->

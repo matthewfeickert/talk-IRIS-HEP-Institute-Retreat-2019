@@ -1,6 +1,6 @@
 default: AS
 
-all: AS pyhf key compare
+all: AS pyhf key compare summary
 
 AS: figures/gantt/AS_gantt.mmd
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1100 -i AS_gantt.mmd -o AS_gantt.svg
@@ -14,7 +14,11 @@ summary: figures/gantt/pyhf_AS_summary.mmd
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -i pyhf_AS_summary.mmd -o pyhf_AS_summary.svg
 	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -i pyhf_AS_summary.mmd -o pyhf_AS_summary.pdf
 
-pyhf: pyhf_docs pyhf_maintenance pyhf_dev pyhf_research
+pyhf: pyhf_AS pyhf_docs pyhf_maintenance pyhf_dev pyhf_research
+
+pyhf_AS: figures/gantt/pyhf_AS_gantt.mmd
+	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1400 -i pyhf_AS_gantt.mmd -o pyhf_AS_gantt.svg
+	docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1400 -i pyhf_AS_gantt.mmd -o pyhf_AS_gantt.pdf
 
 pyhf_docs: figures/gantt/pyhf_docs_gantt.mmd
 	#docker run --rm -v "${PWD}"/figures/gantt:/home/node/data matthewfeickert/mermaid-cli -w 1100 -i pyhf_docs_gantt.mmd -o pyhf_docs_gantt.svg
