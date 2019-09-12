@@ -26,7 +26,7 @@ September 12th, 2019
 CERN
 ]
 .kol-1-3.center[
-.circle.width-80[![Giordon](figures/collaborators/stark.jpg)]
+.circle.width-80[![Giordon](https://avatars0.githubusercontent.com/u/761483)]
 
 [Giordon Stark](https://github.com/kratsg)
 
