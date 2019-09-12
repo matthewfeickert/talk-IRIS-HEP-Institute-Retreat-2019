@@ -8,7 +8,7 @@ count: false
 Matthew Feickert<br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[2019 IRIS-HEP Institute Retreat](https://indico.cern.ch/event/XXXXX/contributions/YYYYYY/)
+[2019 IRIS-HEP Institute Retreat](https://indico.cern.ch/event/840472/contributions/3564386/)
 
 September 12th, 2019
 
@@ -179,7 +179,7 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 - Hardware acceleration and scaling studies highly important
 - Access to [Hardware-Accelerated Learning (HAL)](https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster) at NCSA at Illinois
    - Ideal cluster for benchmarking scaling and performance
-- Additional scaling with Dask could add additional benefit
+- Scaling with Dask could add additional benefit
 ]
 .kol-1-2[
 .center.width-90[![HAL_hardware](figures/HAL_hardware.png)]
