@@ -26,7 +26,7 @@ September 12th, 2019
 CERN
 ]
 .kol-1-3.center[
-.circle.width-80[![Giordon](figures/collaborators/stark.jpg)]
+.circle.width-80[![Giordon](https://avatars0.githubusercontent.com/u/761483)]
 
 [Giordon Stark](https://github.com/kratsg)
 
@@ -70,7 +70,7 @@ $$\begin{aligned}
 
 .bold[Main pieces:]
 
-- .blue[Poisson p.d.f. for bins observed in all channels]
+- .blue[Main Poisson p.d.f. for bins observed in all channels]
 - .red[Constraint p.d.f. (+ data) for "auxiliary measurements"]
    - encoding systematic uncertainties (normalization, shape, etc)
 
@@ -115,8 +115,9 @@ Until now, the only implementation of HistFactory has been in RooStats+RooFit
 
 ---
 # Likelihood serialization and ATLAS sbottom reproduction PUB note
-
+<!--  -->
 .center[Makes good on [19 year old agreement to publish likelihoods](https://indico.cern.ch/event/746178/contributions/3396797/)]
+.center.tiny[(JSON likelihoods should be on HEPData anyday)]
 .kol-1-2.center.width-100[
 [![likelihood_publishing_agreement](figures/likelihood_publishing_agreement.png)](https://cds.cern.ch/record/411537)
 ([1st Workshop on Confidence Limits, CERN, 2000](http://inspirehep.net/record/534129))
@@ -156,16 +157,18 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 - Now that we have published likelihoods important to integrate them into testing
 - Good opportunity to examine real physics case performance of all backends
 - Update testing framework to take advantage of continued improvements
+- With addition of [GitHub Actions CI](https://github.com/diana-hep/pyhf/actions) and Henry's use of Azure Pipelines for deployment reconsidering continued use of Travis CI
+   - Probable to drop CI in Travis but keep CD with Travis in near future
 
 ---
 # Roadmap
-
+<!--  -->
 .center.width-95[![pyhf dev gantt](figures/gantt/pyhf_dev_gantt.svg)]
 <!--  -->
 - Clear, reliable public API
 - Toys for when asymptotics fail in low stats regime
    - Most requested feature
-- Statisfactory integration
+- Statisfactory and [zfit](https://github.com/zfit/zfit/issues/120) integrations
 
 ---
 # Roadmap
@@ -173,9 +176,9 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 .center.width-100[![pyhf research gantt](figures/gantt/pyhf_research_gantt.svg)]
 
 .kol-1-2[
-- Hardware acceleration studies highly important
+- Hardware acceleration and scaling studies highly important
 - Access to [Hardware-Accelerated Learning (HAL)](https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster) at NCSA at Illinois
-   - Ideal cluster for Benchmarking scaling and performance
+   - Ideal cluster for benchmarking scaling and performance
 - Additional scaling with Dask could add additional benefit
 ]
 .kol-1-2[

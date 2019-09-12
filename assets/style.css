@@ -84,6 +84,10 @@ body {
     font-size: 1.2em;
 }
 
+.tiny {
+    font-size: 0.6em;
+}
+
 a {
     color: #0288d1;
     text-decoration: none;
