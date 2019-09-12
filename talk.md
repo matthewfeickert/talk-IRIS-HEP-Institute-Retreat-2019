@@ -161,13 +161,13 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 
 ---
 # Roadmap
-
+<!--  -->
 .center.width-95[![pyhf dev gantt](figures/gantt/pyhf_dev_gantt.svg)]
 <!--  -->
 - Clear, reliable public API
 - Toys for when asymptotics fail in low stats regime
    - Most requested feature
-- Statisfactory integration
+- Statisfactory and [zfit](https://github.com/zfit/zfit/issues/120) integrations
 
 ---
 # Roadmap
