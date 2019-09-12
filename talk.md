@@ -156,6 +156,8 @@ Loosely follow [Seibert’s Heirarchy of Needs](https://twitter.com/FRoscheck/st
 - Now that we have published likelihoods important to integrate them into testing
 - Good opportunity to examine real physics case performance of all backends
 - Update testing framework to take advantage of continued improvements
+- With addition of [GitHub Actions CI](https://github.com/diana-hep/pyhf/actions) and Henry's use of Azure Pipelines for deployment reconsidering continued use of Travis CI
+   - Probable to drop CI in Travis but keep CD with Travis in near future
 
 ---
 # Roadmap
